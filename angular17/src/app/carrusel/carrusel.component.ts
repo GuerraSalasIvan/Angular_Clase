@@ -7,6 +7,7 @@ import { PeticionService } from '../peticion.service';
   templateUrl: './carrusel.component.html',
   styleUrls: ['./carrusel.component.scss']
 })
+
 export class CarruselComponent implements OnInit {
   peliculas: any[] = [];
 

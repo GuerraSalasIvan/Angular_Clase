@@ -18,7 +18,7 @@ export class WatchlistComponent {
   ) {}
 
   ngOnInit(): void { 
-    this.peticionService.getTopRated().subscribe((data: any) => {
+    this.peticionService.getPopularMovies().subscribe((data: any) => {
       this.pelis = data.results.slice(0,15)
     });
   }
